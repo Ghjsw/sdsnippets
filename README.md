@@ -1,5 +1,5 @@
 #### soudian frontend snippets
-#### 提示
+#### 提示：
 
 |No. |  Trigger Key | Tag|
 |:------:|:--------------:|:--------|

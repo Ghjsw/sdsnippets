@@ -1,0 +1,33 @@
+{
+  "name": "sd-snippets",
+  "displayName": "sdsnippets",
+  "description": "sd frontend snippets",
+  "publisher": "BOYA",
+  "version": "0.0.5",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "'javascript'",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

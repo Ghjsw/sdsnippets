@@ -5,15 +5,22 @@
   "publisher": "BOYA",
   "version": "0.0.7",
   "engines": {
-    "vscode": "^1.49.0"
+        "vscode": "^1.0.0"
   },
+  "devDependencies": {
+      "vscode": "0.10.x"
+  },
+  "activationEvents": [
+      "onLanguage:vuejs"
+  ],
+  "main": "./out/extension",
   "categories": [
     "Snippets"
   ],
   "contributes": {
     "snippets": [
       {
-        "language": "'javascript'",
+        "language": "javascript",
         "path": "./snippets/snippets.code-snippets"
       },
       {

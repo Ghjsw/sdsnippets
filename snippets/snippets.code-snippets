@@ -1,6 +1,6 @@
 {
   "SD: Page": {
-    "prefix": "sdpage",
+    "prefix": "sd-page-init",
     "body": [
       "<template>",
       "<div class=\"${1} container\">",
@@ -195,5 +195,17 @@
         "/>"
     ],
     "description": "组件：<el-search-table-pagination>带有搜索，分页的表格组件"
+  },
+  "SD: vue注释": {
+    "prefix": "sd-note",
+    "body": [
+          "/**",
+          " *",
+          " * ${1}",
+          " * @param {${2}} ",
+          " * @return {${3}} ",
+          "*/"
+    ],
+    "description": "方法注释"
   }
 }

@@ -3,15 +3,15 @@
   "displayName": "sdsnippets",
   "description": "sd frontend snippets",
   "publisher": "BOYA",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "engines": {
-        "vscode": "^1.0.0"
+    "vscode": "^1.0.0"
   },
   "devDependencies": {
-      "vscode": "0.10.x"
+    "vscode": "0.10.x"
   },
   "activationEvents": [
-      "onLanguage:vuejs"
+    "onLanguage:vuejs"
   ],
   "main": "./out/extension",
   "categories": [

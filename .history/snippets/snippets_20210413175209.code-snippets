@@ -211,8 +211,13 @@
   "SD: permit": {
     "prefix": "sd-permit",
     "body": [
-      "v-if='permits['${1}']'"
+          "/**",
+          " *",
+          " * ${1}",
+          " * @param {${2}} ",
+          " * @return {${3}} ",
+          "*/"
     ],
-    "description": "permit 判断生成"
+    "description": "方法注释"
   }
 }

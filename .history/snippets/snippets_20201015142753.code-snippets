@@ -207,12 +207,5 @@
           "*/"
     ],
     "description": "方法注释"
-  },
-  "SD: permit": {
-    "prefix": "sd-permit",
-    "body": [
-      "v-if='permits['${1}']'"
-    ],
-    "description": "permit 判断生成"
   }
 }

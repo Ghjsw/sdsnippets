@@ -112,13 +112,6 @@
     ],
     "description": "el-radio-group-button"
   },
-  "SD: permit": {
-    "prefix": "sd-permit",
-    "body": [
-      " v-if=\"permits[\"${1}\"]\" "
-    ],
-    "description": "permit 判断生成"
-  },
   "SD: Dialog": {
     "prefix": "sd-dialog-page",
     "body": [
@@ -202,6 +195,13 @@
         "/>"
     ],
     "description": "组件：<el-search-table-pagination>带有搜索，分页的表格组件"
+  },
+  "SD: permit": {
+    "prefix": "sd-permit",
+    "body": [
+      "test"
+    ],
+    "description": "permit 判断生成"
   },
   "SD: vue注释": {
     "prefix": "sd-note",

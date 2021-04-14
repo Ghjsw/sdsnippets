@@ -3,7 +3,7 @@
   "displayName": "sdsnippets",
   "description": "sd frontend snippets",
   "publisher": "BOYA",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "engines": {
     "vscode": "^1.0.0"
   },
